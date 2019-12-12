@@ -5,6 +5,7 @@
 <table>
   <thead>
     <tr>
+      <th>User</th>
       <th>Title</th>
       <th>Image</th>
       <th>Content</th>
@@ -15,6 +16,7 @@
   <tbody>
     <% @feeds.each do |feed| %>
       <tr>
+        <td><%= feed.user.name %></td>
         <td><%= feed.title %></td>
         <td><%= feed.image %></td>
         <td><%= feed.content %></td>
