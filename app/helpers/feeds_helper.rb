@@ -6,5 +6,4 @@ module FeedsHelper
       feed_path
     end
   end
-  
 end

@@ -1,0 +1,49 @@
+/* line 5, /Users/uekiyuki/workspace/dogbook/app/assets/stylesheets/feeds.scss */
+li {
+  list-style: none;
+}
+
+/* line 8, /Users/uekiyuki/workspace/dogbook/app/assets/stylesheets/feeds.scss */
+ul {
+  padding: 0;
+}
+
+/* line 12, /Users/uekiyuki/workspace/dogbook/app/assets/stylesheets/feeds.scss */
+.header {
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* line 18, /Users/uekiyuki/workspace/dogbook/app/assets/stylesheets/feeds.scss */
+.menu {
+  background-color: #012F4B;
+  color: #fff;
+}
+
+/* line 22, /Users/uekiyuki/workspace/dogbook/app/assets/stylesheets/feeds.scss */
+.menu li {
+  padding: 5% 10%;
+  text-align: center;
+}
+
+/* line 26, /Users/uekiyuki/workspace/dogbook/app/assets/stylesheets/feeds.scss */
+.contents li {
+  background-color: #F3A7AB;
+  color: #fff;
+  padding: 10% 10%;
+  box-sizing: border-box;
+  border: solid 1px #fff;
+}
+
+/* line 33, /Users/uekiyuki/workspace/dogbook/app/assets/stylesheets/feeds.scss */
+.topic li {
+  margin: 1%;
+  border-bottom: dotted 1px #333333;
+}
+
+/* line 37, /Users/uekiyuki/workspace/dogbook/app/assets/stylesheets/feeds.scss */
+.container {
+  margin-top: 20px;
+  padding-bottom: 100px;
+}
