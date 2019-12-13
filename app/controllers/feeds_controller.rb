@@ -11,7 +11,7 @@ class FeedsController < ApplicationController
   # GET /feeds/1.json
 
   def show
-    #binding.irb
+    #binsding.irb
   end
 
   # GET /feeds/new
@@ -25,11 +25,12 @@ class FeedsController < ApplicationController
 
   def confirm
     @feed = current_user.feeds.build(feed_params) #現在ログインしているuserのidを、blogのuser_idカラムに挿入する
-    render :new if @blog.invalid?
+    render :new if @feed.invalid?
   end
 
   # GET /feeds/1/edit
   def edit
+    
   end
 
   # POST /feeds
@@ -73,6 +74,7 @@ class FeedsController < ApplicationController
 
   private
     # Use callbacks to share common setup or constraints between actions.
+    #biding.irb
     def set_feed
       @feed = Feed.find(params[:id])
     end
