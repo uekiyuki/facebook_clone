@@ -1,9 +1,11 @@
-<h1>New Photo</h1>
+<% if logged_in? %>
+<h1>新規投稿</h1>
 
-<class = "login">
+
  <ul>
 <%= render 'form', feed: @feed %>
 
-<%= link_to 'Back', feeds_path %>
+<%= link_to '投稿一覧へ', feeds_path %>
 </ul>
 
+<% end %>

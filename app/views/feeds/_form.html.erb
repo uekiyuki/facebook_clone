@@ -10,24 +10,24 @@
       <% end %>
     </div>
 
-    <div class="blog_title">
-      <%= form.label :title %>
+    <div class="blog">
+      <%= form.label :タイトル %>
       <%= form.text_field :title %>
     </div>
 
-    <div class="blog_content">
-      <%= form.label :content %>
+    <div class="blog">
+      <%= form.label :内容 %>
       <%= form.text_field :content %>
     </div>
 
-    <div class="field">
-      <%= form.label :image %>
+    <div class="blog">
+      <%= form.label :画像 %>
       <%= image_tag(@feed.image.url) if @feed.image && @feed.image.url %>
       <%= form.file_field :image %>
       <=% from.hidden_field :image %>
     </div>
 
     <div class="actions">
-      <%= form.submit %>
+      <%= form.submit '投稿する'%>
     </div>
       <% end %>
