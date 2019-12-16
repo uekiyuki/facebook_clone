@@ -1,6 +1,5 @@
 class FeedsController < ApplicationController
   before_action :set_feed, only: [:show, :edit, :update, :destroy]
-
   # GET /feeds
   def index
     @feeds = Feed.all
@@ -61,11 +60,11 @@ class FeedsController < ApplicationController
 
   private
 
-    def set_feed
+  def set_feed
       @feed = Feed.find(params[:id])
-    end
+  end
 
-    def feed_params
-      params.require(:feed).permit(:image, :image_cache, :title, :content)
-    end
+  def feed_params
+    params.require(:feed).permit(:image, :image_cache, :title, :content)
+  end
 end

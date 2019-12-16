@@ -6,7 +6,6 @@
 //   font-size: 13px;
 //   line-height: 18px;
 // }
-
 p, ol, ul, td {
   font-family: verdana, arial, helvetica, sans-serif;
   font-size: 13px;
@@ -25,7 +24,6 @@ strong {
   &:visited {
     color: #666;
   }
-
   &:hover {
     color: #fff;
     background-color: #000;
@@ -70,7 +68,7 @@ h1{
   font-size: 20px;
 }
 
-  ul li {
-    font-size: 12px;
-    list-style: square;
-  }
+ul li {
+  font-size: 12px;
+  list-style: square;
+}

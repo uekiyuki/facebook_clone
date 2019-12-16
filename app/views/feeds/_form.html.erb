@@ -7,7 +7,7 @@
         <li><%= message %></li>
       <% end %>
       </ul>
-      <% end %>
+  <% end %>
     </div>
 
     <div class="blog">
@@ -24,10 +24,10 @@
       <%= form.label :画像 %>
       <%= image_tag(@feed.image.url) if @feed.image && @feed.image.url %>
       <%= form.file_field :image %>
-      <=% from.hidden_field :image %>
     </div>
 
     <div class="actions">
       <%= form.submit '投稿する'%>
     </div>
-      <% end %>
+<% end %>
+    
